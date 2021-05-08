@@ -8,16 +8,24 @@ module.exports = {
         must have form 'windy-plugin-anyName'
 	*/
 
+
     /*
         Display name of your plugin, as it will
         appear in the menu
 	*/
     displayName: 'resource locations',
-
+    
+    /*
+        List of class names that will be attached to your
+        plugin upon mounting
+	*/
+    className: 'plugin-lhpane plugin-mobile-fullscreen',
+        
     /*
         Place, where opening link to your plugin
         will appear. So far only 'contextmenu'
         and 'menu' is allowed
 	*/
     hook: 'menu',
+    exclusive: 'lhpane',
 };

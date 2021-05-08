@@ -1,4 +1,47 @@
-@import '../dev/variables.less';
+@widthOfMyPlugin: 250px;
 
-.windy-plugin-resources {
+.onwindy-plugin-resources {
+    .left-border {
+        left: @widthOfMyPlugin;
+    }
+
+    #search {
+        display: none;
+    }
+}
+#windy-plugin-resources {
+    width: @widthOfMyPlugin;
+    height: 100%;
+    z-index: 10;
+
+    .closing-x {
+        left: initial;
+        font-size: 30px;
+        z-index: 10;
+        top: 0;
+    }
+
+    .plugin-content {
+        padding: 15px 10px;
+        color:white;
+        font-size: 12px;
+        line-height: 1.6;
+
+        background-color: #343d4f;
+
+        ul {
+            margin: 20px 20px;
+            li {
+                text-decoration: underline;
+            }
+        }
+
+        h2 {
+            color:whitesmoke;
+        }
+
+        small {
+            display: block;
+        }
+    }
 }
