@@ -1,6 +1,6 @@
 {
   "name": "windy-plugin-resources",
-  "version": "0.6.1", 
+  "version": "0.6.2",
   "description": "Windy plugin to overlay some locations",
   "main": "dist/plugin.js",
   "scripts": {
@@ -28,7 +28,8 @@
     "less": "^3.8.1",
     "prompts": "^1.1.1",
     "riot-compiler": "^3.5.1",
-    "ucfirst": "^1.0.0"
+    "ucfirst": "^1.0.0",
+    "windy-plugin-resources": "^0.6.1"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
