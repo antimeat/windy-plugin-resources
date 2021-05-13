@@ -19,7 +19,7 @@ module.exports = {
         List of class names that will be attached to your
         plugin upon mounting
 	*/
-    className: 'plugin-lhpane plugin-mobile-fullscreen',
+    className: 'plugin-rhpane plugin-lhpane plugin-mobile-fullscreen',
         
     /*
         Place, where opening link to your plugin

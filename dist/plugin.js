@@ -8,7 +8,7 @@ function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o =
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-function _iterableToArrayLimit(arr, i) { var _i = arr && (typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]); if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
@@ -20,7 +20,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -28,14 +28,14 @@ W.loadPlugin(
   },
   "description": "Windy plugin to overlay some locations",
   "displayName": "resource locations",
-  "className": "plugin-lhpane plugin-mobile-fullscreen",
+  "className": "plugin-rhpane plugin-lhpane plugin-mobile-fullscreen",
   "hook": "menu",
   "exclusive": "lhpane"
 },
 /* HTML */
-'<div class="plugin-content"> <h2>somewhat useful links?!:</h2> <p> <ul> <li><a href="http://ssuweb.bom.gov.au/ssu_internal/ssuindex.pl?p=0&login=cws&pwd=cws">Customer/forecast repository</a></li> <li><a href="https://wa-aifs-local.bom.gov.au/ofcastData/" target="puffin">Puffin (autoswell)</a></li> <li><a href="http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave_select.php?state=wa" target="auswave_tables">Auswave tables</a></li> <li><a href="http://web.bom.gov.au/nmoc/sros/wavewatch3/auswave_western_region_buoys_locations_wavespectra_global_map.html" target="auswave_spectra">Auswave spectra</a></li> <li><a href="https://metinsight.bom.gov.au/map/7.8,-20.48,117.3/map_dark,stations" target="metinsight">Metinsight (eandr_forecaster/password2017)</a></li> </ul> </p> </div>',
+'<div class="plugin-content"> <h2>Useful links:</h2> <p> <ul> <li><a href="http://ssuweb.bom.gov.au/ssu_internal/ssuindex.pl?p=0&login=cws&pwd=cws">Customer/forecast repository</a></li> <li><a href="https://wa-aifs-local.bom.gov.au/ofcastData/" target="puffin">Puffin (autoswell)</a></li> <li><a href="http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave_select.php?state=wa" target="auswave_tables">Auswave tables</a></li> <li><a href="http://web.bom.gov.au/nmoc/sros/wavewatch3/auswave_western_region_buoys_locations_wavespectra_global_map.html" target="auswave_spectra">Auswave spectra</a></li> <li><a href="https://metinsight.bom.gov.au/map/7.8,-20.48,117.3/map_dark,stations" target="metinsight">Metinsight (eandr_forecaster/password2017)</a></li> <li><a href="https://data.jma.go.jp/omaad/rsmc_nowcast/en/hrp/" target="hrp">Heavy rain potential (HRP)</a></li> <li><a href="https://sigma.cptec.inpe.br/scope" target="scope">Scope-Nowcasting</a></li> </ul> </p> </div>',
 /* CSS */
-'.onwindy-plugin-resources .left-border{left:250px}.onwindy-plugin-resources #search{display:none}#windy-plugin-resources{width:250px;height:100%;z-index:10}#windy-plugin-resources .closing-x{left:initial;font-size:30px;z-index:10;top:0}#windy-plugin-resources .plugin-content{padding:15px 10px;color:white;font-size:12px;line-height:1.6;background-color:#343d4f}#windy-plugin-resources .plugin-content ul{margin:20px 20px}#windy-plugin-resources .plugin-content ul li{text-decoration:underline}#windy-plugin-resources .plugin-content h2{color:whitesmoke}#windy-plugin-resources .plugin-content small{display:block}',
+'.onwindy-plugin-resources .left-border{left:250px}.onwindy-plugin-resources #search{display:none}#windy-plugin-resources{width:250px;height:100%;z-index:10}#windy-plugin-resources .closing-x{left:initial;font-size:30px;z-index:10;top:0}#windy-plugin-resources .plugin-content{padding:15px 10px;color:white;font-size:12px;line-height:1.6;background-color:#343d4f}#windy-plugin-resources .plugin-content ul{margin:20px 20px}#windy-plugin-resources .plugin-content ul li{text-decoration:none}#windy-plugin-resources .plugin-content h2{font-style:italic;color:whitesmoke}#windy-plugin-resources .plugin-content small{display:block}',
 /* Constructor */
 function () {
   var bcast = W.require('broadcast');
