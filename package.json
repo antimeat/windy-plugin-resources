@@ -1,6 +1,6 @@
 {
   "name": "windy-plugin-resources",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Windy plugin to overlay some locations",
   "main": "dist/plugin.js",
   "scripts": {
