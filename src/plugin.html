@@ -68,12 +68,15 @@
 
 	<script>
         // Windy API modules are imported via '@windy/nameOfModule'
-        import map from '@windy/map';
+        import {map} from '@windy/map';
         import _ from '@windy/utils';
         import store from '@windy/store';
         import bcast from '@windy/broadcast';
 
-		//set up the locations
+        // have to set this with change to windy version 34
+        //const {map} = mapModule;
+
+        //set up the locations
 		const locations = [
 			['Van-Gogh',
 				-21.4,114.1,
@@ -504,12 +507,25 @@
 
         console.log('I am being mounted');
 
-		const icon = L.icon({
+        const black_icon = L.icon({
+            className: 'resources-icon',
+			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-black.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [20, 30],
+            iconAnchor: [12, 30],
+            popupAnchor: [1, -34],
+            shadowSize: [30, 30],
+        });
+
+        const green_icon = L.icon({
             className: 'resources-icon',
 			iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
-			//iconSize: [80, 40],
-            //iconAnchor: [20, 10],
-			opacity: 0.5,
+			iconSize: [20, 30],
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [20, 30],
+            iconAnchor: [12, 30],
+            popupAnchor: [1, -34],
+            shadowSize: [30, 30]
         });
 
 		// List of current markers and icons
@@ -525,8 +541,9 @@
 		// Creates marker with content
         const createPopup = (name,lat,lon,wiki,auswave,flamingo,risk,tc,obs) => {
             const marker = L.marker([lat, lon],{
-				icon: map.myMarkers.icon,
-				zIndexOffset: -300,
+				//icon: map.myMarkers.pulsatingIcon,
+                icon: black_icon,
+                zIndexOffset: -300,
             }).addTo(map);
 
 			//const marker = L.marker([lat, lon],{icon}).addTo(map);
@@ -557,12 +574,14 @@
 			}
 		};
 
-        /*
-            this.onclose method is called when your plugin is being closed
 
-            Unsubscribe from all your listeners, and remove all your
-            stuff from a map
-        */
+        //
+        //    this.onclose method is called when your plugin is being closed
+        //
+        //    Unsubscribe from all your listeners, and remove all your
+        //    stuff from a map
+        //
+
         this.onclose = () => {
             if (markers) {
                 markers.forEach(m => map.removeLayer(m));
