@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -436,7 +436,7 @@ function() {
             ],
 
             ['Valaris',
-				-21.92,114.92,
+				-20.92,114.92,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/ENSCO-Valaris.aspx', target='wiki'Knowledge Repo/a>",
 				'',
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo21.92__S%20114.92__E.png', target='flamingo'>flamingo</a>",
