@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -111,14 +111,33 @@ function() {
 			],
 
 			['Mermaid-Sound',
-				-20.58,116.76,
+				-20.582,116.768,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside---Mermaid-Sound.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://wa-aifs-local/ofcastData/reflected/index.php', target='tc-rating'>Reflected swell</a>",
 				"<a href='https://wa-aifs-local.bom.gov.au/waves/mermaid_sound/index.php', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.60__S%20116.80__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Mermaid_Sound&client=fcst#', target='risk-matrix'>risk-matrix</a>",
-				"<a href='https://wa-aifs-local.bom.gov.au/jrichard/machineLearning/scripts/merms/index.cgi', target='temps'>Jim's ML temps</a>",
-				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=NAVAID_9', target='obs'>obs</a>",
+				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=LPGJetty', target='mermaid'>LPG_Jetty-obs</a>",
+			],
+
+            ['Rows-B-Winter',
+				-20.20288,115.36082,
+				"",
+				"",
+				"",
+				"",
+				"",
+				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=NAVAID_9', target='Navaid_9'>Navaid_9-obs</a>",
+			],
+
+            ['13-C',
+				-20.58,116.719,
+				"",
+				"",
+				"",
+				"",
+				"",
+				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=NAVAID_13C', target='Navaid_13C'>Navaid_13C-obs</a>",
 			],
 
 			['Noblige',
@@ -311,6 +330,16 @@ function() {
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Bayu-Undan&client=fcst', target='risk-matrix'>risk-matrix</a>",
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northern,Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YBYU', target='obs'>obs</a>",
+			],
+
+            ['Buffalo-10',
+				-11.67,126.12,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Carnarvon--Buffalo-10.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Bayu_Undan', target='auswave'>Auswave</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo11.07__S%20126.60__E.png', target='flamingo'>flamingo</a>",
+				'',
+				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northern,Northwestern', target='tc-rating'>TC-rating</a>",
+				'',
 			],
 
 			['John-Brookes',
