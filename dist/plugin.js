@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -120,8 +120,8 @@ function() {
 				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=LPGJetty', target='mermaid'>LPG_Jetty-obs</a>",
 			],
 
-            ['Rows-B-Winter',
-				-20.20288,115.36082,
+            ['NAVAID_9',
+				-20.546,116.719,
 				"",
 				"",
 				"",
@@ -130,7 +130,7 @@ function() {
 				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=NAVAID_9', target='Navaid_9'>Navaid_9-obs</a>",
 			],
 
-            ['13-C',
+            ['Navaid_13_C',
 				-20.58,116.719,
 				"",
 				"",
