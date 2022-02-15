@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -205,6 +205,26 @@ function() {
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos--Dorado.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Dorado', target='auswave'>Auswave</a>",
                 "<a href='http://wa-aifs-local/images/flamingo/flamingo19.02__S%20119.17__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-cws-op/risk_matrix/?site_id=Dorado-1&client=fcst', target='risk-matrix'>risk-matrix</a>",
+				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
+				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
+			],
+
+            ['Ranger Mine',
+				-12.68,132.91,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos--Dorado.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Dorado', target='auswave'>Auswave</a>",
+                "<a href='http://wa-aifs-local/images/flamingo/flamingo12.67__S%20132.90__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-cws-op/risk_matrix/?site_id=Dorado-1&client=fcst', target='risk-matrix'>risk-matrix</a>",
+				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
+				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
+			],
+
+            ['Ok-Tedi',
+				-5.21,141.14,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos--Dorado.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Ok-Tedi', target='auswave'>Auswave</a>",
+                "<a href='http://wa-aifs-local/images/flamingo/flamingo5.20__S%20141.13__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Dorado-1&client=fcst', target='risk-matrix'>risk-matrix</a>",
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
@@ -444,14 +464,6 @@ function() {
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=nt&site=Abbot_Point', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo19.87__S%20148.10__E.png', target='flamingo'>flamingo</a>",
 				"<a href='https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/abbot-point', target='obs'>obs</a>",
-			],
-
-			['Ok-Tedi',
-				-5.21,141.14,
-				"<a href='http://cws-01.bom.gov.au/twiki/bin/view/SSUQLD/OkTediHowTo', target='wiki'Knowledge Repo/a>",
-				'',
-				"",
-				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
 
 			['Onslow',
