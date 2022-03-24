@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -68,7 +68,7 @@ function() {
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Dampier_Nearshore_Port', target='auswave'>Auswave</a>",
                 "<a href='http://wa-cws-op/risk_matrix/?site_id=Cape_Preston_Area&client=fcst', target='risk-matrix'>risk-matrix</a>",
-				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.35__S%20116.55__E.png', target='flamingo'>flamingo</a>",
+                "<a href='http://wa-aifs-local/images/flamingo/flamingo20.62__S%20116.40__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKA', target='obs'>obs</a>",
 			],
 			['Petrel',
