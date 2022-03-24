@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.2.4",
+  "version": "1.2.6",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -62,6 +62,14 @@ function() {
 				'',
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo21.52__S%20130.87__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPDN', target='obs'>obs</a>",
+			],
+            ['Dampier-Port-Offshore',
+				-20.35,116.55,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Dampier_Nearshore_Port', target='auswave'>Auswave</a>",
+                "<a href='http://wa-cws-op/risk_matrix/?site_id=Cape_Preston_Area&client=fcst', target='risk-matrix'>risk-matrix</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.35__S%20116.55__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKA', target='obs'>obs</a>",
 			],
 			['Petrel',
 				-12.82,128.48,
@@ -486,10 +494,10 @@ function() {
             ],
 
             ['Valaris',
-				-20.92,114.92,
+				-20.01,116.01,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/ENSCO-Valaris.aspx', target='wiki'Knowledge Repo/a>",
 				'',
-				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.92__S%20114.92__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.01__S%20116.01__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Valaris-MS1&client=point', target='risk-matrix'>risk-matrix</a>",
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
                 "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
