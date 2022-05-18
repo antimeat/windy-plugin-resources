@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -323,6 +323,16 @@ function() {
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKA', target='obs'>obs</a>",
 			],
 
+            ['Kanga-1',
+			-19.32,116.36,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/SupraOMV.aspx', target='wiki'>Knowledge Repo</a>",
+                "<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Rankin', target='auswave'>Auswave</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo19.58__S%20116.13__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-cws-op/risk_matrix/?site_id=North_Rankin&client=fcst#', target='risk-matrix'>risk-matrix</a>",
+				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=NWShelf', target='tc-rating'>TC-rating</a>",
+				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=North-Rankin', target='obs'>obs</a>",
+			],
+
 			['Pilbara-Port-Authority (Port Hedland)',
 			-20.32,118.58,
 				"No Wiki!",
@@ -349,6 +359,30 @@ function() {
 				'',
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo22.53__S%20119.03__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/'', target='obs'>obs</a>",
+			],
+
+            ['Nacap - KP15',
+				-28.59,115.27,
+				'',
+				'',
+				'',
+				'',
+			],
+
+            ['Nacap - KP45',
+				-28.51,115.55,
+				'',
+				'',
+				'',
+				'',
+			],
+
+            ['Nacap - KP75',
+				-28.47,115.84,
+				'',
+				'',
+				'',
+				'',
 			],
 
 			['Rio-Tinto-2',
