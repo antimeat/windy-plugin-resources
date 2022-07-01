@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -280,6 +280,16 @@ function() {
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Che.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Barrow_Island', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.80__S%20115.48__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-cws-op/risk_matrix/?site_id=Barrow_Island&client=fcst', target='risk-matrix'>risk-matrix</a>",
+				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
+				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YBWX', target='obs'>obs</a>",
+			],
+
+            ['Barossa',
+				-9.8,130.23,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Barossa.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=nt&site=Barossa', target='auswave'>Auswave</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo9.80__S%20130.23__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Barrow_Island&client=fcst', target='risk-matrix'>risk-matrix</a>",
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YBWX', target='obs'>obs</a>",
