@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -287,7 +287,7 @@ function() {
 
             ['Barossa',
 				-9.8,130.23,
-				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Barossa.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos-Barossa.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=nt&site=Barossa', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo9.80__S%20130.23__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Barrow_Island&client=fcst', target='risk-matrix'>risk-matrix</a>",
