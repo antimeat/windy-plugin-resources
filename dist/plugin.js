@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -397,6 +397,8 @@ function() {
 				'',
 				'',
 				'',
+                '',
+                '',
 			],
 
             ['Nacap - KP75',
@@ -405,6 +407,8 @@ function() {
 				'',
 				'',
 				'',
+                '',
+                ''
 			],
             ['Nacap - KP125',
 				-28.42,116.33,
@@ -412,6 +416,8 @@ function() {
 				'',
 				'',
 				'',
+                '',
+                '',
 			],
 
 			['Rio-Tinto-2',
@@ -420,6 +426,8 @@ function() {
 				'',
 				'',
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
+                '',
+                '',
 			],
             ['Newman',
 				-23.42,119.80,
@@ -427,6 +435,8 @@ function() {
 				'',
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo23.42__S%20119.78__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
+                '',
+                '',
 			],
 
 			['Bayu-Undan',
