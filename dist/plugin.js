@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -434,7 +434,7 @@ function() {
 				'',
 				'',
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo23.42__S%20119.78__E.png', target='flamingo'>flamingo</a>",
-				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
+				"<a href='http://airodis.ecotech.com.au/newman/index.html?site=0&station=0', target='dust'>dust obs</a>",
                 '',
                 '',
 			],
