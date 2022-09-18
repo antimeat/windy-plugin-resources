@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.4.9",
+  "version": "1.5.0",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -101,7 +101,7 @@ function() {
 			['Wandoo',
 				-20.14,116.42,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Vermillion.aspx', target='wiki'>Knowledge Repo</a>",
-				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Wandoo', target='auswave'>Auswave</a>",
+				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Wando', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.13__S%20116.42__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Wandoo&client=fcst#', target='risk-matrix'>risk-matrix</a>",
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
