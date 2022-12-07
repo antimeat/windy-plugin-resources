@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.5",
+  "version": "1.5.6",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -151,7 +151,7 @@ function() {
 				-22.24,114.09,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside---Learmonth-Logistics.aspx', target='wiki'>Knowledge Repo</a>",
 				"",
-				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.23__S%20114.08__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo22.23__S%20114.08__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Mermaid_Sound&client=fcst#', target='risk-matrix'>risk-matrix</a>",
                 "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=NWShelf', target='tc-rating'>TC-rating</a>",
                 "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",

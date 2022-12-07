@@ -1,6 +1,6 @@
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "Windy plugin to overlay some locations",
   "main": "dist/plugin.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/antimeat/windy-plugin-resources.git"
   },
-  "author": "Darryl Vink",
+  "author": "Daz Vink",
   "license": "UNLICENSED",
   "dependencies": {
     "@babel/core": "^7.1.2",
