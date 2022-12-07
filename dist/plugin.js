@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "author": "Darryl Vink",
   "repository": {
     "type": "git",
@@ -130,11 +130,31 @@ function() {
 			['Mermaid-Sound',
 				-20.582,116.768,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside---Mermaid-Sound.aspx', target='wiki'>Knowledge Repo</a>",
-				"<a href='http://wa-aifs-local/ofcastData/reflected/index.php', target='tc-rating'>Reflected swell</a>",
 				"<a href='https://wa-aifs-local.bom.gov.au/vulture/wave_data/index.php', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.60__S%20116.80__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://wa-cws-op/risk_matrix/?site_id=Mermaid_Sound&client=fcst#', target='risk-matrix'>risk-matrix</a>",
+                "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=NWShelf', target='tc-rating'>TC-rating</a>",
+                "<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=LPGJetty', target='mermaid'>LPG_Jetty-obs</a>",
+			],
+
+            ['Karratha Logistics',
+				-20.6,116.80,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside---Karratha-Logistics.aspx', target='wiki'>Knowledge Repo</a>",
+				"<a href='https://wa-aifs-local.bom.gov.au/vulture/wave_data/index.php', target='auswave'>Auswave</a>",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.60__S%20116.80__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-cws-op/risk_matrix/?site_id=Mermaid_Sound&client=fcst#', target='risk-matrix'>risk-matrix</a>",
+                "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=NWShelf', target='tc-rating'>TC-rating</a>",
 				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=LPGJetty', target='mermaid'>LPG_Jetty-obs</a>",
+			],
+
+            ['Learmonth Logistics',
+				-22.24,114.09,
+				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside---Learmonth-Logistics.aspx', target='wiki'>Knowledge Repo</a>",
+				"",
+				"<a href='http://wa-aifs-local/images/flamingo/flamingo20.23__S%20114.08__E.png', target='flamingo'>flamingo</a>",
+				"<a href='http://wa-cws-op/risk_matrix/?site_id=Mermaid_Sound&client=fcst#', target='risk-matrix'>risk-matrix</a>",
+                "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=NWShelf', target='tc-rating'>TC-rating</a>",
+                "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
 
             ['NAVAID_9',
