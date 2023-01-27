@@ -8,8 +8,8 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.6",
-  "author": "Darryl Vink",
+  "version": "1.5.7",
+  "author": "Daz Vink",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antimeat/windy-plugin-resources.git"
