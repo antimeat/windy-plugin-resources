@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "author": "Daz Vink",
   "repository": {
     "type": "git",
@@ -196,6 +196,16 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=NWShelf', target='tc-rating'>TC-rating</a>",
 				"<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=North-Rankin', target='obs'>obs</a>",
 			],
+
+            ['MEFF',
+                -19.28,116.61,
+                "<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos--MEFF.aspx', target='wiki'>Knowledge Repo</a>",
+                "<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Rankin', target='auswave'>Auswave</a>",
+                "<a href='http://wa-aifs-local/images/flamingo/flamingo19.58__S%20116.13__E.png', target='flamingo'>flamingo</a>",
+                "<a href='http://wa-cws-op/risk_matrix/?site_id=North_Rankin&client=fcst#', target='risk-matrix'>risk-matrix</a>",
+                "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
+                "<a href='http://wa-cws-op.bom.gov.au/web/verification/live/plot_simple.php?source=WoodsideInflux&site=North-Rankin', target='obs'>obs</a>",
+            ],
 
 			['Pluto-(PLA)',
 				-20,115.37,
