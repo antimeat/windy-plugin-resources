@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.21",
+  "version": "2.0.0    ",
   "author": "Daz Vink",
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@ W.loadPlugin(
 /* Constructor */
 function() {
 
+	const bcast = W.require('broadcast');
 	const store = W.require('store');
 	const _ = W.require('utils');
 	const {map} = W.require('map');
@@ -727,6 +728,7 @@ function() {
 		    if (!markers) {
                 markers = locations.map(p => createPopup(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8]));
 
+				bcast.on('redrawFinished', makeMarkers);
 			}
 		});
 
@@ -734,13 +736,14 @@ function() {
             if (!markers) {
                 markers = locations.map(p => createPopup(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8]));
 
+				bcast.on('redrawFinished', makeMarkers);
 			}
 		};
 
         export const ondestroy = () => {
             if (markers) {
                 markers.forEach(m => map.removeLayer(m));
-
+				bcast.off('redrawFinished', makeMarkers);
                 markers = null;
             }
         };
