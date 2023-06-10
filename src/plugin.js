@@ -718,9 +718,7 @@ export const onopen = () => {
 
 //	onopen method is called when your plugin is being opened
 export const onmount = () => {
-    if (!markers) {
-        onopen();
-    }
+    onopen();    
 };
 
 export const ondestroy = () => {
