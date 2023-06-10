@@ -8,7 +8,7 @@ W.loadPlugin(
 /* Mounting options */
 {
   "name": "windy-plugin-resources",
-  "version": "1.5.10",
+  "version": "1.5.11",
   "author": "Daz Vink",
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@ function() {
 	const {map} = W.require('map');
 
 
-		const locations = [
+        const locations = [
 			['Van-Gogh',
 				-21.4,114.1,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/S.aspx', target='wiki'>Knowledge Repo</a>",
@@ -47,7 +47,8 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='https://metinsight.bom.gov.au/locations/VINC/observations', target='obs'>obs</a>",
 			],
-			['Varanus-Is',
+
+            ['Varanus-Is',
 				-20.6,115.6,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos--Varanus-Is.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Varanus', target='auswave'>Auswave</a>",
@@ -56,22 +57,28 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=VRIS', target='obs'>obs</a>",
 			],
-			['Darwin-Harbour',
+
+            ['Darwin-Harbour',
 				-12.52,130.87,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Santos-.aspx', target='wiki'>Knowledge Repo</a>",
-				'',
-				"<a href='http://wa-aifs-local/images/flamingo/flamingo21.52__S%20130.87__E.png', target='flamingo'>flamingo</a>",
-				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPDN', target='obs'>obs</a>",
+				"",
+                "<a href='http://wa-aifs-local/images/flamingo/flamingo21.52__S%20130.87__E.png', target='flamingo'>flamingo</a>",
+                "",
+                "",
+                "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPDN', target='obs'>obs</a>",
 			],
+
             ['Dampier-Offshore',
 				-20.50,116.43,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Dampier_Nearshore_Port', target='auswave'>Auswave</a>",
                 "<a href='http://wa-cws-op/risk_matrix/?site_id=Cape_Preston_Area&client=fcst', target='risk-matrix'>risk-matrix</a>",
                 "<a href='http://wa-aifs-local/images/flamingo/flamingo20.67__S%20116.17__E.png', target='flamingo'>flamingo</a>",
-				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKA', target='obs'>obs</a>",
+                "",
+                "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKA', target='obs'>obs</a>",
 			],
-			['Petrel',
+
+            ['Petrel',
 				-12.82,128.48,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/N.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Petrel', target='auswave'>Auswave</a>",
@@ -80,6 +87,7 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northern,Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
+
             ['Prelude',
 				-13.79,123.32,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Shell.aspx', target='wiki'>Knowledge Repo</a>",
@@ -89,7 +97,8 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northern,Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
-			['Northern-Endeavour',
+
+            ['Northern-Endeavour',
 				-10.62,125.987,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Upstream-Solutions.aspx', target='wiki'>Knowledge Repo</a>",
 				"Auswave: Use Bayu Undan'",
@@ -98,7 +107,8 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northern,Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
-			['Wandoo',
+
+            ['Wandoo',
 				-20.14,116.42,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Vermillion.aspx', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Wando', target='auswave'>Auswave</a>",
@@ -107,6 +117,7 @@ function() {
 				"<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
+
 			['Enfield',
 				-21.5,114,
 				"<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/Woodside--Enfield.aspx', target='wiki'>Knowledge Repo</a>",
@@ -330,7 +341,9 @@ function() {
 			['AngloGold',
 				-29.24,124.54,
 				"<a href=https://bom365.sharepoint.com/sites/ERG/SitePages/Aglogold.aspx, target=_blank>Knowledge Repo</a>",
-				'',
+				"",
+                "",
+                ""
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo29.23__S%20124.53__E.png', target='flamingo'>flamingo</a>",
 				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YTRA', target='obs'>obs</a>",
 			],
@@ -400,7 +413,9 @@ function() {
 				"<a href='http://cws-01.bom.gov.au/twiki/bin/view/SSUQLD/KumulHowTo', target='wiki'>Knowledge Repo</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=nt&site=Kumul_Platform', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo8.07__S%20144.57__E.png', target='flamingo'>flamingo</a>",
-				"<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
+                "",
+                "",
+                "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
 			],
 
 			['Pilbara-Port-Authority (Dampier)',
@@ -471,7 +486,6 @@ function() {
 				"<a href='http://airodis.ecotech.com.au/newman/index.html?site=0&station=0', target='dust'>dust obs</a>",
                 "<a href='http://aifs-wa.bom.gov.au/rgn/cgi-bin/plot_ceilo.pl?name=YNWN+vis&interval=6&offset=0&height=12&vis=24&refresh=5&pid=25102', target='vis'>YNWN ceilo</a>",
                 "<a href='http://wa-aifs-local.bom.gov.au/images/nwp/timeseries/EC-YNWN.PNG', target='timeseries'>YNWN EC timeseries</a>",
-,
 			],
 
 			['Bayu-Undan',
@@ -600,6 +614,7 @@ function() {
                     "",
     				"<a href='http://wa-aifs-local/images/flamingo/flamingo30.62__S%20121.58__E.png', target='flamingo'>flamingo</a>",
                     "",
+                    "",
                     "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKG', target='obs'>obs</a>",
 			],
 
@@ -609,6 +624,7 @@ function() {
 				"",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo30.62__S%20121.58__E.png', target='flamingo'>flamingo</a>",
                 "",
+                "",
                 "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPKG', target='obs'>obs</a>",
 			],
 
@@ -617,6 +633,8 @@ function() {
 				"<a href='http://cws-01.bom.gov.au/twiki/bin/view/SSUQLD/AbbotPointBulkcoalHowTo'><Wiki</a>",
 				"<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=nt&site=Abbot_Point', target='auswave'>Auswave</a>",
 				"<a href='http://wa-aifs-local/images/flamingo/flamingo19.87__S%20148.10__E.png', target='flamingo'>flamingo</a>",
+                "",
+                "",
 				"<a href='https://www.qld.gov.au/environment/coasts-waterways/beach/monitoring/waves-sites/abbot-point', target='obs'>obs</a>",
 			],
 
@@ -714,7 +732,7 @@ function() {
 			}
 		});
 
-        this.onopen = () => {
+        export const onopen = () => {
             if (!markers) {
                 markers = locations.map(p => createPopup(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8]));
 
@@ -722,7 +740,7 @@ function() {
 			}
 		};
 
-        this.onclose = () => {
+        export const ondestroy = () => {
             if (markers) {
                 markers.forEach(m => map.removeLayer(m));
 				bcast.off('redrawFinished', makeMarkers);
