@@ -716,6 +716,13 @@ export const onopen = () => {
     }
 };
 
+//	onopen method is called when your plugin is being opened
+export const onmount = () => {
+    if (!markers) {
+        onopen();
+    }
+};
+
 export const ondestroy = () => {
     if (markers) {
         markers.forEach(m => map.removeLayer(m));
