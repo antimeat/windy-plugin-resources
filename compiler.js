@@ -7,6 +7,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { pathToFileURL } from 'url';
 import assert from 'node:assert';
 import https from 'node:https';
 
@@ -196,7 +197,8 @@ async function build() {
 }
 
 async function reloadConfig() {
-    const { default: dir } = await import(path.join(__dirname, srcDir, 'config.js'));
+    const filePath = path.join(__dirname, srcDir, 'config.js');
+    const { default: dir } = await import(pathToFileURL(filePath));
     decache(dir);
     config = dir;
     return;

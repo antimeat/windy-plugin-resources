@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     /*
         Most important config variable is name of your plugin,
         which is defined in your package.json, since the name
@@ -14,14 +14,14 @@ module.exports = {
         appear in the menu
 	*/
     displayName: 'resource locations',
-    
+
     /*
         List of class names that will be attached to your
         plugin upon mounting
 	*/
     className: 'plugin-rhpane plugin-mobile-fullscreen',
     classNameMobile: 'plugin-mobile-bottom-slide',
-        
+
     /*
         Place, where opening link to your plugin
         will appear. So far only 'contextmenu'

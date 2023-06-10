@@ -311,7 +311,7 @@ const locations = [
         "<a href=https://bom365.sharepoint.com/sites/ERG/SitePages/Aglogold.aspx, target=_blank>Knowledge Repo</a>",
         "",
         "",
-        ""
+        "",
         "<a href='http://wa-aifs-local/images/flamingo/flamingo29.23__S%20124.53__E.png', target='flamingo'>flamingo</a>",
         "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YTRA', target='obs'>obs</a>",
     ],
@@ -707,7 +707,7 @@ bcast.on('rqstClose', () => {
     }
 });
 
-//	this.onopen method is called when your plugin is being opened
+//	onopen method is called when your plugin is being opened
 export const onopen = () => {
     if (!markers) {
         markers = locations.map(p => createPopup(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8]));
@@ -715,14 +715,6 @@ export const onopen = () => {
         bcast.on('redrawFinished', makeMarkers);
     }
 };
-
-
-//
-//    this.onclose method is called when your plugin is being closed
-//
-//    Unsubscribe from all your listeners, and remove all your
-//    stuff from a map
-//
 
 export const ondestroy = () => {
     if (markers) {
