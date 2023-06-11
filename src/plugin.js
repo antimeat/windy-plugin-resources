@@ -718,7 +718,9 @@ export const onopen = () => {
 
 //	onopen method is called when your plugin is being opened
 export const onmount = () => {
-    onopen();    
+    markers = locations.map(p => createPopup(p[0],p[1],p[2],p[3],p[4],p[5],p[6],p[7],p[8]));
+    //markers = locations.map(p => createPopup(makeMarkers));
+    bcast.on('redrawFinished', makeMarkers);
 };
 
 export const ondestroy = () => {
