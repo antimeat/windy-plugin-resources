@@ -645,6 +645,17 @@ const locations = [
         "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
         "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPCC', target='obs'>obs</a>",
     ],
+
+    ['GB-Energy',
+        -38.23,147.42,
+        "<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/GBEnergyWell.aspx', target='wiki'>Knowledge Repo</a>",
+        "<a href='https://wa-aifs-local.bom.gov.au/waves/spectra_viewer/auswave_new.php?site=Golden_Beach&model=long', target='auswave'>Auswave</a>",
+        "<a href='http://wa-aifs-local/images/flamingo/flamingo38.23__S%20147.42__E.png', target='flamingo'>flamingo</a>",
+        "",
+        "",
+        "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/meteograms2.3/?avid=YPCC', target='obs'>obs</a>",
+    ],
+
 ];
 
 console.log('I am being mounted');
