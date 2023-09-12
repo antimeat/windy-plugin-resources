@@ -210,7 +210,7 @@ const locations = [
         -19.87,113.16,
         "<a href='https://bom365.sharepoint.com/sites/ERG/SitePages/woodside--Scarborough.aspx', target='wiki'>Knowledge Repo</a>",
         "<a href='http://aifs-qld.bom.gov.au/local/qld/rfc/pages/marine/waves/auswave.php?state=wa&site=Scarborough_Infield', target='auswave'>Auswave</a>",
-        "<a href='http://wa-aifs-local/images/flamingo/flamingo19.87__S%20113.16__E.png', target='flamingo'>flamingo</a>",
+        "<a href='http://wa-aifs-local/images/flamingo/flamingo19.93__S%20113.25__E.png', target='flamingo'>flamingo</a>",
         "<a href='http://wa-cws-op/risk_matrix/?site_id=Scarborough&client=woodside', target='risk-matrix'>risk-matrix</a>",
         "<a href='http://wa-cws-op/webapps/tc_outlook/webAPI.cgi?get=outlookText&regions=Northwestern', target='tc-rating'>TC-rating</a>",
         "<a href='http://aifs-wa.bom.gov.au/local/php_apps/obs/map/', target='obs'>obs</a>",
